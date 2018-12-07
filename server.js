@@ -1,12 +1,9 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const bodyParser = require('body-parser');
 
 const app = express();
 const SECRET_KEY = 'secret';
 
-app.use(bodyParser.urlencoded({ extended: false }))
-app.use(bodyParser.json())
 dateSetup();
 
 app.get('/api/getToken', (req,res) => {
