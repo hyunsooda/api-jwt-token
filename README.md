@@ -8,8 +8,8 @@ npm install api-jwt-token
 
 
 <h2> Usage </h2>
-First, run the server(server.js) which is supported some RESTful API
-Second, do make other server and get a token then try to get current time service
+<h4> First, run the server(server.js) which is supported some RESTful API </h4>
+<h4> Second, do make other server and get a token then try to get current time service </h4>
 
 
 ```
