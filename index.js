@@ -71,3 +71,13 @@ function dateSetup() {
     String.prototype.zf = function(len){return "0".string(len - this.length) + this;};
     Number.prototype.zf = function(len){return this.toString().zf(len);};
 }
+        /*
+        const {data : {token}} = await axios.post('http://localhost:3000/api/auth', {
+            id: 'hyunsooda',
+            pswd: 1234
+        });
+
+        getApiWithToken('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Imh5dW5zb28iLCJwc3dkIjoiMTIzIiwiaWF0IjoxNTQ0MTY3NzUwLCJleHAiOjE1NDQzNDA1NTB9.kVwG8aUecg22glj8SEI-VBZIbeEY-soybscz94IDLQU',
+'http://localhost:3000/api/currenttime', result => console.log(result));
+
+        */
