@@ -1,4 +1,4 @@
-# token-api
+# api-jwt-token
 ``` 
 npm install api-jwt-token
 ```
