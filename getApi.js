@@ -10,5 +10,3 @@ async function getApiWithToken(token, url, callback) {
     }
 }
 
-
-getApiWithToken('your token', 'url', 'your callback');
