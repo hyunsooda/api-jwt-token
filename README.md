@@ -8,6 +8,7 @@ npm install api-jwt-token
 
 
 <h2> Usage </h2>
+
 ```
 const apiCall = require('api-jwt-token');
 apiCall('your JWT token', 'url', your_callback);
