@@ -3,7 +3,7 @@
 npm install api-jwt-token
 ```
 
-<h4> JWT is a good way for auth because it redcues amount of query to database.
+<h4> JWT is a good way for auth because it redcues amount of query to database also server dosen't have user's session
 <h4> This is skeleton code for testing and developing using JWT </h4>
 
 
