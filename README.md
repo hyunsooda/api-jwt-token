@@ -17,8 +17,8 @@ const apiCall = require('api-jwt-token');
 apiCall('your JWT token', 'url', your_callback);
 ```
 
-<h3> Lastly, we can consider MD5(symmetric key.. but not secure) hash algorithm because JWT token length is very long.
+<p> <b> Lastly, we can consider MD5(symmetric key.. but not secure) hash algorithm for token because JWT token length is very long.
   
-  </h3>
+  </b></p>
 
 <p> See also : https://github.com/auth0/node-jsonwebtoken </p>
